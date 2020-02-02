@@ -1,2 +1,2 @@
 # ghostblogtheme-attila
-基于Ghost的attila博客进行一些定制
+基于Ghost博客的attila主题进行一些定制
