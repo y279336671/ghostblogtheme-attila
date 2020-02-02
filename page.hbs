@@ -1,0 +1,24 @@
+{{!< default}}
+
+{{#post}}
+
+<header class="post-header {{#if cover_image}} has-cover {{/if}}">
+	<div class="inner">
+		<h1 class="post-title">{{{title}}}</h1>
+		{{#if cover_image}}<div class="post-cover cover" style="background-image: url('{{img_url cover_image}}');"></div>{{/if}}
+	</div>
+</header>
+
+<main class="content" role="main">
+	<article class="{{post_class}}">
+		<div class="inner">
+
+			<section class="post-content">
+				{{content}}
+			</section>
+
+		</div>
+	</article>
+</main>
+
+{{/post}}
